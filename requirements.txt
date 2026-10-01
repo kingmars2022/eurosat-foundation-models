@@ -1,0 +1,16 @@
+# Core (Kaggle / Colab already ship torch + torchvision with CUDA; pip keeps them)
+torch>=2.4
+torchvision>=0.19
+timm>=1.0.30            # DINOv3 incl. the SAT-493M satellite weights
+open_clip_torch>=3.3    # CLIP, SigLIP 2, RemoteCLIP
+transformers>=5.17      # Qwen3.5 / Qwen3-VL / Gemma 3
+peft>=0.21
+accelerate>=1.0
+bitsandbytes>=0.45; sys_platform == "linux"
+huggingface_hub
+numpy
+pandas
+pillow
+scikit-learn>=1.5
+matplotlib
+pytest

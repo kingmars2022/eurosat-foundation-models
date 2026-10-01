@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# large / regenerable artefacts
+data/
+features/
+results/adapters/
+*.zip
+.DS_Store
